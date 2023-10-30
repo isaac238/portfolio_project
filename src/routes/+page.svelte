@@ -49,6 +49,8 @@ import 'iconify-icon';
 	<Card icon="logos:javascript" title="Javascript"/>
 	<Card icon="logos:html-5" title="HTML"/>
 	<Card icon="logos:css-3" title="CSS"/>
+	<Card icon="logos:nodejs-icon" title="Node"/>
+	<Card icon="logos:php" title="PHP"/>
 	<Card icon="logos:c-sharp" title="C#"/>
 	<Card icon="logos:python" title="Python"/>
 	<Card icon="logos:java" title="Java"/>
