@@ -13,9 +13,9 @@ import 'iconify-icon';
 		</span>
 	</div>
 	<p id="description" class="text-2xl">
-	A Software Engineering BEng student at Sheffield Hallam University looking for a placement position.
-	For the past 2 years I have been focusing on Web Technologies however, I have experience in many other areas of Software Engineering. 
-	Thanks for taking the time to checkout what im up to!
+	A Software Engineering BEng student at Sheffield Hallam University, I am currently seeking a placement position.
+	Over the past two years, I have been concentrating on Web Technologies;
+	however, I also have experience in various other areas of Software Engineering. Thank you for taking the time to check out what I'm up to!
 	</p>
 	<a class="block md:hidden underline hover:brightness-75" href="#projects">Learn More</a>
 </section>
