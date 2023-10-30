@@ -27,7 +27,7 @@ import 'iconify-icon';
 	title="Nuxt 3 Blog" 
 	github="https://github.com/isaac238/nuxtBlog" 
 	deploy="https://blog.isaac238.dev" 
-	stack={["Nuxt3", "Vue3", "TypeScript", "Supabase", "Vercel"]}>
+	stack={["Nuxt3", "Vue3", "TypeScript", "Supabase", "Vercel", "Tailwind"]}>
 	This is a blog website I built using Nuxt 3 with Typescript and Tailwind CSS for the front-end,
 	Supabase for database, authentication and storing md files as articles, and Vercel for deployment.
 	</ProjectCard>
@@ -37,9 +37,28 @@ import 'iconify-icon';
 	title="Codle" 
 	github="https://github.com/isaac238/codle" 
 	deploy="https://codle.isaac238.dev" 
-	stack={["NextJS", "React", "TypeScript", "Vercel KV (Redux)", "Vercel Crons", "Vercel"]}>
+	stack={["NextJS", "React", "TypeScript", "Tailwind", "Vercel KV (Redux)", "Vercel Crons", "Vercel"]}>
 	This is a wordle based website I built using NextJS 13 with Typescript and Tailwind CSS for the front-end.
 	As well as Vercels KV database for storing programming related answers, Vercels Cron-job feature for scheduling a change each day, and Vercel for deployment.
+	</ProjectCard>
+
+	<ProjectCard 
+	thumbnail="https://cdn.discordapp.com/attachments/659103295771770880/1168612879709253763/image.png" 
+	title="Random Droid" 
+	github="https://github.com/isaac238/RandomDroid" 
+	deploy="https://droids.isaac238.dev" 
+	stack={["SvelteKit", "Tailwind", "TypeScript", "Vercel", "Python"]}>
+	This is a website built using SvelteKit, Tailwind, and TypeScript for the front-end. That makes use of python to webscrape the Star Wars Wiki.
+	Into an API that is then used to display random droids on the website.
+	</ProjectCard>
+
+	<ProjectCard 
+	thumbnail="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.png" 
+	title="Terminal_Run.nvim" 
+	github="https://github.com/isaac238/Terminal_Run.nvim" 
+	stack={["Lua"]}>
+	This is a plugin for neovim that allows you to set a command for each working directory and then run it with :Run
+	to open it in a new terminal buffer.
 	</ProjectCard>
 </section>
 
@@ -54,6 +73,7 @@ import 'iconify-icon';
 	<Card icon="logos:c-sharp" title="C#"/>
 	<Card icon="logos:python" title="Python"/>
 	<Card icon="logos:java" title="Java"/>
+	<Card icon="logos:lua" title="Lua"/>
 	<Card icon="logos:mysql" title="MySQL"/>
 	<Card icon="logos:sqlite" title="SQLite"/>
 	<Card icon="devicon-plain:jquery-wordmark" title="JQuery"/>
