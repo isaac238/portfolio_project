@@ -8,10 +8,6 @@ export let thumbnail: string;
 export let stack: string[];
 const stackString = stack.join(', ');
 </script>
-<!--
-// v0 by Vercel.
-// https://v0.dev/t/LQbuXYzXPwV
--->
 
 <div
   class="border bg-card text-card-foreground max-w-md mx-auto shadow-lg rounded-lg overflow-hidden m-5 flex justify-between flex-col"

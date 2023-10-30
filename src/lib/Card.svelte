@@ -2,10 +2,6 @@
 export let icon: string;
 export let title: string;
 </script>
-<!--
-// v0 by Vercel.
-// https://v0.dev/t/zdWk8EkeCDG
--->
 
 <div
   class="bg-card text-card-foreground border rounded-lg shadow-lg overflow-hidden max-w-md mx-auto my-2 min-w-[11rem]"
