@@ -2,6 +2,10 @@
 	import Card from '$lib/Card.svelte';
 	import ProjectCard from '$lib/ProjectCard.svelte';
 	import 'iconify-icon';
+	import Me from '$lib/Me.jpg';
+	import NuxtBlog from '$lib/NuxtBlog.png';
+	import Codle from '$lib/Codle.png';
+	import RandomDroid from '$lib/DroidDB.png';
 </script>
 
 <section
@@ -11,7 +15,7 @@
 	<div class="welcome flex gap-4 text-8xl flex-col md:flex-row">
 		<img
 			class="md:h-60 md:w-60 h-14 w-14 object-cover object-center rounded-[100%] border-2 border-black dark:border-white md:block"
-			src="https://media.discordapp.net/attachments/1153926751479668797/1168214402596618260/20230813_132143.jpg"
+			src={Me}
 			alt="Isaac"
 		/>
 		<span class="font-normal">
@@ -31,7 +35,7 @@
 <h2 class="text-4xl pt-4" id="projects">Projects</h2>
 <section id="projects-content" class="flex flex-wrap mb-8">
 	<ProjectCard
-		thumbnail="https://cdn.discordapp.com/attachments/659103295771770880/1168202896781885550/image.png"
+		thumbnail={NuxtBlog}
 		title="Nuxt 3 Blog"
 		github="https://github.com/isaac238/nuxtBlog"
 		deploy="https://blog.isaac238.dev"
@@ -43,7 +47,7 @@
 	</ProjectCard>
 
 	<ProjectCard
-		thumbnail="https://cdn.discordapp.com/attachments/659103295771770880/1168222254186897479/image.png"
+		thumbnail={Codle}
 		title="Codle"
 		github="https://github.com/isaac238/codle"
 		deploy="https://codle.isaac238.dev"
@@ -63,7 +67,7 @@
 	</ProjectCard>
 
 	<ProjectCard
-		thumbnail="https://cdn.discordapp.com/attachments/659103295771770880/1168612879709253763/image.png"
+		thumbnail={RandomDroid}
 		title="Random Droid"
 		github="https://github.com/isaac238/RandomDroid"
 		deploy="https://droids.isaac238.dev"
