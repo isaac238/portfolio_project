@@ -4,7 +4,7 @@ export let title: string;
 </script>
 
 <div
-  class="bg-card text-card-foreground border rounded-lg shadow-lg overflow-hidden max-w-md mx-auto my-2 min-w-[11rem]"
+  class="bg-card text-card-foreground border rounded-lg shadow-lg overflow-hidden max-w-md my-2 min-w-[11rem]"
   data-v0-t="card"
 >
   <div class="flex flex-col space-y-1.5 bg-gray-100 dark:bg-gray-800 dark:text-white p-4">

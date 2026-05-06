@@ -6,6 +6,7 @@
 	import NuxtBlog from '$lib/NuxtBlog.png';
 	import Codle from '$lib/Codle.png';
 	import RandomDroid from '$lib/DroidDB.png';
+	import Neovim from '$lib/Neovim.png';
 </script>
 
 <section
@@ -13,26 +14,33 @@
 	class="flex flex-col min-h-screen md:min-h-fit sm:justify-center justify-between gap-5 pb-10"
 >
 	<div class="welcome flex gap-4 text-8xl flex-col md:flex-row">
-		<img
-			class="md:h-60 md:w-60 h-14 w-14 object-cover object-center rounded-[100%] border-2 border-black dark:border-white md:block"
-			src={Me}
-			alt="Isaac"
-		/>
-		<span class="font-normal">
-			<h1>Hi 👋,</h1>
-			<h1>I'm <span class="font-bold">Isaac</span></h1>
-		</span>
+		<img class="md:h-60 md:w-60 h-14 w-14 object-cover object-center rounded-[100%] border-2 border-black dark:border-white md:block" src={Me} alt="Isaac" />
+
+		<div class="flex-grow-0 flex-shrink basis-0">
+			<h1 class="font-bold">Isaac Sutherland</h1>
+			<h2 class="font-thin brightness-75 text-2xl">Graduate Software Engineer @ Raytheon</h2>
+
+			<ul class="flex gap-4 mt-2 border-2 dark:border-gray-200 border-black rounded-md p-1 w-fit">
+				<li>
+					<a class="flex justify-center align-center hover:brightness-50" href="https://www.linkedin.com/in/isaac-sutherland-007b42239/">
+						<iconify-icon icon="mdi:linkedin" width="2rem" height="2rem"></iconify-icon>
+					</a>
+				</li>
+
+				<li>
+					<a class="flex justify-center align-center hover:brightness-75" href="https://www.github.com/isaac238">
+						<iconify-icon icon="mdi:github" width="2rem" height="2rem"></iconify-icon>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<p id="description" class="text-2xl">
-		A Software Engineering BEng student at Sheffield Hallam University, I am currently seeking a
-		placement position. Over the past two years, I have been concentrating on Web Technologies;
-		however, I also have experience in various other areas of Software Engineering. Thank you for
-		taking the time to check out what I'm up to!
 	</p>
-	<a class="block md:hidden underline hover:brightness-75" href="#projects">Learn More</a>
 </section>
 
 <h2 class="text-4xl pt-4" id="projects">Projects</h2>
+<hr class="mt-2 mb-2" />
 <section id="projects-content" class="flex flex-wrap mb-8">
 	<ProjectCard
 		thumbnail={NuxtBlog}
@@ -79,7 +87,7 @@
 	</ProjectCard>
 
 	<ProjectCard
-		thumbnail="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.png"
+		thumbnail={Neovim}
 		title="Terminal_Run.nvim"
 		github="https://github.com/isaac238/Terminal_Run.nvim"
 		stack={['Lua']}
@@ -90,7 +98,8 @@
 </section>
 
 <h2 class="text-4xl pt-4" id="technologies">Technologies</h2>
-<section id="technologies-content" class="flex flex-wrap mb-8 gap-1">
+<hr class="mt-2 mb-2" />
+<section id="technologies-content" class="flex flex-wrap justify-start mb-8 gap-3">
 	<Card icon="logos:typescript-icon" title="Typescript" />
 	<Card icon="logos:javascript" title="Javascript" />
 	<Card icon="logos:html-5" title="HTML" />
